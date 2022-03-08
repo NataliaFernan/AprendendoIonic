@@ -6,7 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-
+  nome = "Primeiro projeto"
   constructor() {}
+
+  ngOnInit() {
+    //this.chamarNome()
+    this.nome = "O Universo"
+  }
+  chamarNome():void{
+    alert('Essa função foi chamada')
+  }
 
 }

@@ -1,17 +1,25 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar class="ion-text-center">
     <ion-title>
-      Tab 2
+     {{nome}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+<ion-content>
+  <ion-card>
+    <ion-card-header class="ion-text-center">
+      <ion-card-title>Estrelas</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content class="card-content">  
+      <img src="https://i.pinimg.com/originals/74/3f/e7/743fe7d5997c7a64608b55e0ce9e83c4.gif">
+      <div>
+        <ion-text color="dark">
+          Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar. Batizado em homenagem ao deus romano da guerra, muitas vezes é descrito como o "Planeta Vermelho", porque o óxido de ferro predominante em sua superfície lhe dá uma aparência avermelhada.
+          Marte é um planeta rochoso que consiste em minerais contendo silício e oxigênio, metais e outros elementos que normalmente compõem rocha. A superfície de Marte é composta principalmente de basalto toleítico,[18] embora parte seja mais rica em sílica que o basalto típico e possa ser semelhantes às rochas andesíticas da Terra ou ao vidro de sílica. Regiões de baixo albedo apresentam concentrações de plagioclásios, sendo que as regiões de albedo mais baixo, ao norte, exibem concentrações superiores às normais de silicatos e de vidro de sílica. Partes das terras altas ao sul incluem quantidades detectáveis de piroxênios com alto teor de cálcio. Concentrações localizadas de hematita e olivina também foram encontradas.[19] A maior parte da superfície está profundamente coberta por uma camada de pó de óxido de ferro (III) de textura fina.
+        </ion-text>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
